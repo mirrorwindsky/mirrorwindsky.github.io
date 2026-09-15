@@ -10,13 +10,32 @@ aside: false
 top_img: false
 ---
 
-# TD Pipeline Demo
+## TD Pipeline Demo
 
 **面向策划的 Python 配置工具，配套 Unity 可玩 Demo。**
 
 围绕配置检查、校验标准调整和重复调参，制作支持图形界面、自定义规则、批量更新与 AI 辅助编写规则的桌面工具，并通过 Unity 玩法验证配置修改的实际效果。
 
-**[GitHub 源码](https://github.com/mirrorwindsky/TD-Pipeline-Demo)** · **[工具使用说明](https://github.com/mirrorwindsky/TD-Pipeline-Demo/blob/main/Docs/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)** · **[下载 Unity 可玩版本 · Windows x64 v1.0.0](https://github.com/mirrorwindsky/TD-Pipeline-Demo/releases/download/v1.0.0/TD-Pipeline-Demo-Windows-x64-v1.0.0.zip)**
+**[GitHub 源码](https://github.com/mirrorwindsky/TD-Pipeline-Demo)** · **[工具使用说明](https://github.com/mirrorwindsky/TD-Pipeline-Demo/blob/main/Docs/%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md)** · **[下载游戏demo与配置工具](https://github.com/mirrorwindsky/TD-Pipeline-Demo/releases/download/v1.0.0%2Btool/demo.zip)**
+
+## 演示视频
+
+<!-- 将演示视频放到 source/video/td-pipeline-demo.mp4 -->
+<!-- markdownlint-disable MD033 -->
+
+<div style="margin: 24px 0;">
+  <video
+    controls
+    preload="metadata"
+    playsinline
+    style="width: 100%; max-width: 960px; border-radius: 8px; display: block; margin: 0 auto;"
+  >
+    <source src="/video/td-pipeline-demo.mp4" type="video/mp4">
+    当前浏览器不支持 HTML5 视频播放。
+  </video>
+</div>
+
+<!-- markdownlint-enable MD033 -->
 
 ## Python 配置工具 V3
 
@@ -33,22 +52,6 @@ top_img: false
 | **Windows EXE 打包** | 提供打包脚本；构建后的独立 EXE 自带 Python 与 tkinter，支持查找或选择项目目录 | 便于交付给未安装 Python 的使用者 |
 
 CSV 内容由 Excel 等表格软件编辑；批量应用写回 CSV 后，需再点击生成 JSON。AI 接收需求、表头和当前规则，不发送 CSV 数据行。
-
-## 演示视频
-
-<!-- 将演示视频放到 source/video/td-pipeline-demo.mp4 -->
-
-<div style="margin: 24px 0;">
-  <video
-    controls
-    preload="metadata"
-    playsinline
-    style="width: 100%; max-width: 960px; border-radius: 8px; display: block; margin: 0 auto;"
-  >
-    <source src="/video/td-pipeline-demo.mp4" type="video/mp4">
-    当前浏览器不支持 HTML5 视频播放。
-  </video>
-</div>
 
 ## Unity 玩法验证
 
